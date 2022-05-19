@@ -1,0 +1,138 @@
+@media (max-width:420px){
+    body{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    main{
+        margin-bottom: 15px;
+    }
+    .section .handle {
+        margin: 0;
+        height: 30px;
+    }
+    #tchalla-quote{
+        font-size: 18px;
+    }
+    #quote{
+        font-size: 14px;
+    }
+    th, td{
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media (min-width:420px){
+    h1{
+        font-size: 50px;
+    }
+    body{
+        font-size: 20px;
+    }
+    .section .handle {
+        margin: 0;
+        height: 45px;
+    }
+    #tchalla-quote{
+        font-size: 30px;
+        margin: 50px;
+    }
+    #quote{
+        font-size: 18px;
+    }
+    th, td{
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media (max-width:920px){
+    main{
+        height: 100%;     
+    }
+    .section>input[name="collapse"]:checked~.content {
+        height: 100%;
+        transition: height 0.5s;
+    }
+    .section>input[name="collapse"]:checked~.content {
+        border-top: 0;
+        transition: 0.3s;
+    }
+    .section .content {
+        overflow: hidden;
+        height: 0;
+        transition: 0.5s;
+    }
+}
+
+@media (min-width:920px){
+    main{           
+        margin: 50px;
+        width: 1020px;
+    }
+    #main-pic{
+        width: 35%;
+        float: left;
+    }
+}
+   
+body{
+    background: url(images/4ca0b45c45656565c1631e8736b37676.jpg), black;
+    color: #d78fff;
+    background-size: 1020px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    display: none;
+}
+
+.handle, h1, h2, h3, h4{
+    color: #a400ff;
+}
+
+#main-pic{
+    width: 35%;
+    margin-right: 30px;
+}
+
+#quote{
+    text-align: center;
+    font-style: italic;
+    color: #e000e0;
+}
+a{
+    color: magenta;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 2px solid #6900a1;
+}
+
+
+.img-left{
+    float: left;
+    margin-right: 15px;
+}
+
+.img-right, #sec-main{
+    float: right;
+    margin-left: 15px;
+}
+
+p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
